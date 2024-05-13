@@ -14,7 +14,7 @@ let config = {
         default: 'arcade',
         arcade: {
             gravity: { y: 0 },
-            debug: true
+            debug: false
         }
     },
     scene: [StartScene, Wave1, Wave2,Wave3, GameOver, End, ControlScene, CreditScene]
